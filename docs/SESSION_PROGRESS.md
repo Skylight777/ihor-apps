@@ -1,6 +1,6 @@
 # Session progress
 
-## 2026-10-26 — implementation verified, publication next
+## 2026-10-26 — published and verified
 - User chose `ihor-apps` for Desktop folder and GitHub repository.
 - Hosting: GitHub Pages, Skylight777/ihor-apps. English matches supplied US App Store catalog.
 - Reference: Apple iPhone Duo; adapted whitespace, typography, product imagery and section rhythm. No Apple marketing assets copied.
@@ -12,4 +12,9 @@
 - Tooling corrections: Python urllib certificate store rejected chain; system curl succeeded with normal certificate verification. Network tools require elevated execution. GitHub CLI authenticated successfully with network access.
 - Root Pages robots.txt returns 404: no declared crawl restrictions. Project-level robots would be ineffective and was omitted.
 - App Store Connect not accessed or changed. Existing legal repository unchanged.
-- Next: copy reviewed source to Desktop, commit, create new public GitHub repository, enable Pages, verify live site.
+- Complete: source at Desktop/ihor-apps; public repository https://github.com/Skylight777/ihor-apps; live site https://skylight777.github.io/ihor-apps/.
+- GitHub Pages reports built with no error, HTTPS enforced. All 18 live URLs passed: homepage, 14 product pages, CSS, JS, sitemap.
+- Three real live browser cycles passed: Everyday filter (3 apps), card click to DayLine, FAQ expansion, correct App Store destination, return home.
+- Screenshot delivered as ihor-apps-preview.png in chat outputs.
+- No remaining implementation blockers. Search engine indexing and AI recommendations are external outcomes and not confirmed. Sitemap has not been submitted to webmaster tools.
+- Next maintenance: refresh Apple metadata when apps change; extend content and localization when requested.
