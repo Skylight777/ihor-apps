@@ -1,8 +1,8 @@
 # Session progress
 
-## 2026-10-26 — iPhone showcase redesign verified
+## 2026-10-26 — iPhone showcase redesign published and verified
 - User requested Apple-level visual presentation, prioritizing app imagery and physical iPhones.
-- Working branch: design/iphone-showcase. Existing main deployment remains recoverable.
+- Design branch merged into main; published design commit 576d520. Previous deployment remains recoverable in git.
 - Built-in ImageGen created a shared transparent titanium iPhone hardware render; source and exact prompt recorded in docs/DESIGN.md.
 - Downloaded high-resolution Apple screenshots. All source images remain unmodified; CSS crops remove App Store promotional borders and place authentic UI inside the hardware frame.
 - Reworked homepage with three large phones, two editorial spotlights, and larger product cards. Reworked all 14 product pages with side-by-side hero and device gallery.
@@ -11,4 +11,6 @@
 - Three complete filter/navigation/FAQ/return cycles passed at 390px; zero browser warnings or errors. All generated local links and image paths validated.
 - Visually inspected homepage, editorial spotlights, cards, Reading Log XL, and Sugar Log XL at desktop/mobile sizes. Source contact sheet reviewed for all 40 original screen variants.
 - App Store Connect and existing legal repository untouched.
-- Next: commit verified redesign, publish main, confirm live deployment and refresh user-facing tabs.
+- Complete: GitHub Pages reports built with no error. All 59 live URLs verified: 15 pages, 42 high-resolution source screens, shared frame, and v2 stylesheet.
+- Live browser confirms the new homepage headline and loaded phone imagery on the user’s current Routine Timer page. User-facing tabs refreshed.
+- Next: iterate from user feedback; no remaining implementation blockers.

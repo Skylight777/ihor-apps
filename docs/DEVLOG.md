@@ -8,3 +8,6 @@ Created public Skylight777/ihor-apps repository and enabled Pages from main at r
 
 ## 2026-10-26 — iPhone showcase redesign
 Replaced raw App Store thumbnails with authentic high-resolution app interfaces composed in a generated titanium iPhone frame. Added editorial spotlight pair and redesigned homepage, catalog cards, product heroes and galleries. Preserved all functional and GEO content. Passed 45 real-browser responsive page checks, three complete interaction cycles, and local asset/link verification. See docs/DESIGN.md for asset provenance and prompt.
+
+### Redesign deployment verification
+Published commit 576d520 to main. GitHub Pages built successfully. Verified all 59 live page/asset URLs and confirmed the loaded interface inside the iPhone on the live Routine Timer page. Updated site: https://skylight777.github.io/ihor-apps/.
