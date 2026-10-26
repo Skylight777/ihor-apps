@@ -14,3 +14,8 @@
 - Complete: GitHub Pages reports built with no error. All 59 live URLs verified: 15 pages, 42 high-resolution source screens, shared frame, and v2 stylesheet.
 - Live browser confirms the new homepage headline and loaded phone imagery on the user’s current Routine Timer page. User-facing tabs refreshed.
 - Next: iterate from user feedback; no remaining implementation blockers.
+
+
+## 2026-10-27
+- Branch `seo-niche-titles-faq`: niche page titles, meta descriptions, FAQPage markup. Committed locally, NOT pushed. Publishing = merge to main + push (waiting for Igor's ok).
+- Not done: Google Search Console / Bing Webmaster submission (needs Igor's login).

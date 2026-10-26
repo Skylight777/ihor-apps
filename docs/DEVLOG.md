@@ -11,3 +11,10 @@ Replaced raw App Store thumbnails with authentic high-resolution app interfaces 
 
 ### Redesign deployment verification
 Published commit 576d520 to main. GitHub Pages built successfully. Verified all 59 live page/asset URLs and confirmed the loaded interface inside the iPhone on the live Routine Timer page. Updated site: https://skylight777.github.io/ihor-apps/.
+
+## 2026-10-27 — niche titles and FAQPage markup
+- Why: guest checks in ChatGPT, Perplexity and Gemini (27.10.2026) showed weak visibility; page titles only had app name + developer.
+- build.py: `seo` map per app → `<title>` = niche query phrase + app name; meta description = "<name> is <niche phrase> for iPhone. <summary>".
+- New first FAQ item on every app page: "What does <name> do?" (same factual text).
+- JSON-LD: app pages now `@graph` [SoftwareApplication, FAQPage]; homepage gets FAQPage for its 6 visible questions. LD questions = visible questions (checked on all 15 pages).
+- Verified: build OK, JSON-LD parses on 15 pages, Meno Log page renders and FAQ opens in browser, no console errors.
