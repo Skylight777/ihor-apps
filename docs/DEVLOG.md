@@ -18,3 +18,7 @@ Published commit 576d520 to main. GitHub Pages built successfully. Verified all 
 - New first FAQ item on every app page: "What does <name> do?" (same factual text).
 - JSON-LD: app pages now `@graph` [SoftwareApplication, FAQPage]; homepage gets FAQPage for its 6 visible questions. LD questions = visible questions (checked on all 15 pages).
 - Verified: build OK, JSON-LD parses on 15 pages, Meno Log page renders and FAQ opens in browser, no console errors.
+
+## 2026-10-27 — IndexNow (Bing) submission
+- Added IndexNow key file `4e9b6e68483d6c96a6432a5a02b28515.txt` at site root (must stay published; keyLocation scopes it to /ihor-apps/).
+- Submitted all 15 sitemap URLs to api.indexnow.org.
